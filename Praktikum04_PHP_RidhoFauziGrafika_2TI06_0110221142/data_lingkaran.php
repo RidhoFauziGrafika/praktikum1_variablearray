@@ -1,0 +1,19 @@
+<?php 
+
+// memanggil class lingkaran
+require_once "class_lingkaran.php";
+
+echo "Nilai PHI ".Lingkaran::PHI;
+$lingkar1 = new Lingkaran(10);
+$lingkar2 = new Lingkaran(4);
+echo "<br/>";
+
+echo "<br>Luas Lingkaran I : ".$lingkar1->getLuas();
+echo "<br>Luas Lingkaran II : ".$lingkar2->getLuas();
+echo "<br/>";
+
+echo "<br>Keliling Lingkaran I : ".$lingkar1->getKeliling();
+echo "<br>Keliling Lingkaran II : ".$lingkar2->getKeliling();
+
+
+?>
