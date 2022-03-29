@@ -1,0 +1,13 @@
+1. Apa yang dimaksud dengan encapsulation dalam OOP ?
+Enkapsulasi adalah proses melindungi member class dari akses user(access modifier).
+
+2. Apa yang dimaksud dengan inheretance dalam OOP ? 
+Inheritance adalah konsep OOP dimana sebuah class dapat menurunkan property dan method yang dimilikinya.
+
+3. Apa fungsi kata kunci berikut ini dalam program PHP
+• extends : Berfungsi untuk menggabungkan class PHP dengan class PHP yang baru
+• __construct : Berfungsi untuk menjalankan method secara otomatis saat dibuat sebuah object.
+• parent::__construct : Berfungsi untuk menjalankan construct pada parent nya.
+• parent::cetak() : Berfungsi untuk menjalankan cetak pada parent nya.  
+• $this->nama : Berfungsi untuk mengakses property non static
+• $this->hello() : Berfungsi untuk mengakses method non static
